@@ -5,8 +5,8 @@ let linhas = '';
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const inputNomeContato = document.getElementById('nome-contato');
-    const inputTelefoneContato = document.getElementById('telefone-contato');
+    const inputNomeContato = document.getElementById('nome');
+    const inputTelefoneContato = document.getElementById('telefone');
     
     let linha = "<tr>";
     linha = linha + "<td>" + inputNomeContato.value + "</td>";
